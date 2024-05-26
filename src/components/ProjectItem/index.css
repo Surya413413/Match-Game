@@ -1,0 +1,9 @@
+.project-item-container {
+  display: flex;
+  
+}
+.project-item-image{
+    height: 200px;
+    width:200px;
+    margin: 10px;
+}

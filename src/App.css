@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.nav-container {
+  background-color: #2c0e3a;
+  background-size: cover;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.match-game-logo {
+  width: 180px;
+  height: 90px;
+}
+.nav-score-timer-container {
+  display: flex;
+
+  justify-content: space-between;
+  width: 250px;
+  align-items: center;
+  margin-right: 20px;
+}
+.timer-logo {
+  width: 50px;
+  height: 50px;
+}
+.score-para {
+  color: white;
+  font-size: 25px;
+}
+.sec-para {
+  color: white;
+  font-size: 25px;
+}
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 100vh;
+  border: 2px solid orangered;
+}
+.tabs-container {
+  border: 2px solid orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+.project-list-container {
+  border: 2px solid orangered;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tropi-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trophy-img {
+  height: 200px;
+  width: 200px;
+}
+.reset-img {
+  width: 30px;
+  height: 30px;
+}
+.button-playAgain {
+  width: 150px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #cf60c8;
+  color: white;
+}
